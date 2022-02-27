@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/logo.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.svg" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!-- Balloon css powers tooltips  -->
+  <link rel="stylesheet" href="https://unpkg.com/balloon-css/balloon.min.css">
+  <!-- For Material-UI -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>PrintZ</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="portal"></div>
+  <div id="root"></div>
+  <!-- All modern browser hide tamplates by default with -->
+  <template>
+    <div class="browser_supported">
+      <h2>Browser Not Supported</h2>
+      <p>Your current web browser is not supported, try updating or installing one of the supported browsers
+        below.</p>
+
+      <div class="browser">
+        <a href="https://www.google.com/chrome/" target="_blank">
+          <h4 class="b_chrome">Google Chrome</h4>
+        </a>
+
+        <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">
+          <h4 class="b_firefox">Mozilla Firefox</h4>
+        </a>
+
+        <a href="https://www.microsoft.com/en-us/edge" target="_blank">
+          <h4 class="b_edge">Microsoft Edge</h4>
+        </a>
+
+        <a href="https://www.opera.com/" target="_blank">
+          <h4 class="b_opera">Opera</h4>
+        </a>
+
+      </div>
+  </template>
+</body>
+
+</html>

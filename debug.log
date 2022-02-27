@@ -1,0 +1,15 @@
+[1215/141620.583:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1217/105301.318:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\dabrown\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\9a13cfe6-2b57-436e-840c-a7824fe08a78: The system cannot find the path specified. (0x3)
+[1217/121526.945:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\dabrown\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\9fd6ebc3-8cdd-45d3-8144-cb49087c4925: The system cannot find the path specified. (0x3)
+[1217/130242.832:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1217/130242.832:ERROR:exception_snapshot_win.cc(99)] thread ID 11000 not found in process
+[1217/130242.832:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1217/130242.832:ERROR:exception_snapshot_win.cc(99)] thread ID 26356 not found in process
+[1217/130242.832:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1217/130242.832:ERROR:exception_snapshot_win.cc(99)] thread ID 22700 not found in process
+[1217/130242.832:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1217/130242.832:ERROR:exception_snapshot_win.cc(99)] thread ID 24124 not found in process
+[1217/130242.832:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1217/130242.832:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1217/130242.832:ERROR:exception_snapshot_win.cc(99)] thread ID 3716 not found in process
+[1217/130242.832:ERROR:exception_snapshot_win.cc(99)] thread ID 7448 not found in process

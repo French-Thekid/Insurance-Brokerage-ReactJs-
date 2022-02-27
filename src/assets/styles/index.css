@@ -1,0 +1,286 @@
+body {
+  margin: 0;
+  color: #4d4f5c;
+  font-family: 'Nunito', 'sans-serif';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f5f5f5;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: lightgrey;
+  border-radius: 200px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #818181;
+  border-radius: 200px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2699fb;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  filter: grayscale(80%);
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito', 'sans-serif';
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito', 'sans-serif';
+}
+
+/* Toggle component Style*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 29px;
+  height: 16px;
+  margin: 0px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.2s;
+  transition: 0.2;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 14px;
+  width: 14px;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  background-color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* // Toggle component Style    */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 29px;
+  height: 16px;
+  margin: 0px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.DateRangePickerInput_arrow {
+  width: 40px;
+}
+
+.DateInput_input {
+  cursor: pointer;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.2s;
+  transition: 0.2;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 14px;
+  width: 14px;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  background-color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+input:checked + .slider {
+  background-color: #2699fb;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2699fb;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
+}
+
+/* // Rounded sliders  */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.Toastify__toast {
+  padding: 13px 1px !important;
+  box-shadow: none !important;
+  overflow: initial !important;
+}
+.Toastify__toast--default {
+  background-color: transparent !important;
+}
+.Toastify__toast-container {
+  width: 340px;
+}
+
+.color_swap {
+  filter: invert(55%) grayscale(100%);
+  mix-blend-mode: difference;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dd-button {
+  display: inline-block;
+  border: 2px solid #2699fb;
+  color: #2699fb;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 3px 35px 6px 20px;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #2699fb;
+}
+
+.dd-input {
+  display: none;
+}
+
+.dd-menu {
+  position: absolute;
+  top: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0;
+  margin: 2px 0 0 0;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  list-style-type: none;
+  z-index: 4;
+}
+
+.dd-input + .dd-menu {
+  display: none;
+}
+
+.dd-input:checked + .dd-menu {
+  display: block;
+}
+
+.dd-menu li button {
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-menu li button {
+  text-align: left;
+  color: inherit;
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  white-space: nowrap;
+  border: none;
+  background-color: transparent;
+}
+
+.dd-menu li button:hover {
+  background-color: #f6f6f6;
+}
+
+.dd-menu li button:disabled {
+  cursor: not-allowed;
+}
+
+.dd-menu li a {
+  display: block;
+  margin: -10px -20px;
+  padding: 10px 20px;
+}
+
+.dd-menu li.divider {
+  padding: 0px;
+  margin: 0px 5px;
+  border-bottom: 1px solid #e7e7e7;
+}
